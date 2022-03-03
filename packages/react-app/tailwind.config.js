@@ -4,7 +4,7 @@ module.exports = {
   purge: {
     content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
     options: {
-      safelist: ["headerBackground", "ringsBackground"],
+      safelist: ["headerBackground", "ringsBackground", "redBackground"],
     },
   },
   darkMode: false, // or 'media' or 'class'
@@ -14,6 +14,7 @@ module.exports = {
         headerBackground: "url('/src/assets/Bareheader.svg')",
         ringsBackground: "url('/src/assets/RotatingRings.svg')",
         smallBackground: "url('/src/assets/Rings_small.svg')",
+        redBackground: "url('/src/assets/red_bg.svg')",
       },
       colors: {
         orange: colors.orange,

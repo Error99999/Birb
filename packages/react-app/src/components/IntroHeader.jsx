@@ -10,7 +10,7 @@ export default function IntroHeader() {
     <div
       class="svg-container"
       /* bg-smallBackground bg-auto bg-right bg-no-repeat sm:bg-ringsBackground */
-      className="flex flex-wrap "
+      className="flex flex-wrap bg-redBackground bg-auto bg-right bg-no-repeat sm:bg-redBackground "
     >
       {/*  */}
       <div className="flex flex-wrap w-1/2 justify-center bg-no-repeat">
